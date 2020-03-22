@@ -1,4 +1,13 @@
-setInterval("main()",10);
+function funcionxd(){
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext("2d");
+    var imagen;
+    imagen = new Image();
+    imagen.src = 'img/pfondo2.jpg';
+    ctx.drawImage(img, 0, 0, canvas.clientWidth, canvas.height);
+}
+
+/*setInterval("main()",10);
 function main(){
     if (i == 10) {
         alert("Felicidades, has ganado");          
@@ -12,7 +21,7 @@ var segtota0 = 0;
 /*function aleatorio() {
     numfin = Math.round(Math.random()*(90-65)+65);
     
-};*/
+};
 var i = 0;           
 function contadorclics() {
     i++;
@@ -71,7 +80,7 @@ function contadorclics() {
     
     for (var s = i; s = 0; i--) {
     }
-    */
+    
 }
 
 function Reset() {
@@ -109,7 +118,7 @@ function comenzar() {
         }
         /*if (segundostotales==0) {
             document.getElementById('boton1').disabled=true;
-        }*/
+        }
     }
 }
 
