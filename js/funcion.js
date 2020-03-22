@@ -1,3 +1,12 @@
+setInterval("main()",10);
+function main(){
+    if (i == 10) {
+        alert("Felicidades, has ganado");          
+    }
+    else if (numfin!=i && segundostotales1==0){
+        alert("Has perdido unu");
+    }
+}
 var numfin = 0;
 var segtota0 = 0;
 /*function aleatorio() {
@@ -52,28 +61,6 @@ function contadorclics() {
         }
     } else if (i==numfin-1){
         mover_ralph_cawake();
-    }
-    compar_clicks();
-    function compar_clicks(){
-        segundostotales2=10;
-        timer2();
-        function timer2(){
-            segundostotales2--;
-            var tiempo2 = setTimeout(timer2,10);
-            document.getElementById("hey").innerHTML="Cliquea ahora, te quedan: "+segundostotales2+" segundos";
-            if (i == numfin) {
-                alert("Felicidades, has ganado");
-                for (var z = 0; z = i; z++) {
-                    clearTimeout(tiempo2);
-                }        
-            }
-            else if (numfin!=i && segundostotales1==0){
-                alert("Has perdido unu");
-                for (var z = 0; z = i; z++) {
-                    clearTimeout(tiempo2);
-                }
-            }
-        }
     }
     /*
     for (var w = i; w<numfin+1 ; w++) {
@@ -137,9 +124,7 @@ window.onload = function(){
     document.getElementById('boton1').disabled=true;
     var img = new Image();
     img.src = "img/img1.JPG";  
-    img.onload = function(){
-        ctx.drawImage(img, 32.5, 100, 450, 200);
-    }
+    ctx.drawImage(img, 32.5, 100, 450, 200);
     //document.getElementById('boton1').disabled=true;
 }
 /*
