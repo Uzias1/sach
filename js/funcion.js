@@ -4,7 +4,7 @@ function funcionxd(){
     var imagen;
     imagen = new Image();
     imagen.src = 'img/pfondo2.jpg';
-    ctx.drawImage(img, 0, 0, canvas.clientWidth, canvas.height);
+    ctx.drawImage(imagen, 0, 0, canvas.clientWidth, canvas.height);
 }
 
 /*setInterval("main()",10);
