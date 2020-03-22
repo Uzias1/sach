@@ -1,0 +1,39 @@
+body {
+    background: #ccc;
+    color: #333;
+    font: 14px 'Arial',sans-serif;
+    text-align: center;
+}
+div.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+div.juego {
+
+}
+div.juego canvas {
+    box-shadow: 0 0 30px #000;
+    background: url("../img/pfondo2.JPG") no-repeat left;
+    background-attachment: 319px;
+}
+div.derecha {
+    float: right;
+}
+div.derecha {
+    padding: 10px;
+}
+div.derecha {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div.derecha ul#puntuaciones li{
+    line-height:1.5em;
+    border-bottom:1px solid #aaa;
+    float:left;
+    display:inline;
+    width: 50%;
+    padding: 10px 0;
+}
